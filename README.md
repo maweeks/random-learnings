@@ -1,5 +1,7 @@
 # Random Learnings
 
+**A repository to store random programming / tech things that I learn.**
+
 ## Command Line
 
 ### Bash
