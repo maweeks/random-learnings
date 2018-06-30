@@ -2,6 +2,8 @@
 
 **A repository to store random programming / tech things that I learn.**
 
+Unless otherwise stated, square brackets in code snippets indicate a value to be used.
+
 ## Tools
 
 ### Design
@@ -23,6 +25,16 @@ echo "any command" | tee myfile.txt
 
 ### Git
 
+Create an empty branch, e.g. for gh-pages
+
+```bash
+git checkout --orphan [branch name]
+
+rm -rf ./*
+
+git rm --cached -r .
+```
+
 Revert commit a commit
 
 ```bash
@@ -34,3 +46,7 @@ Revert a merged commit
 ```bash
 git revert -m 1 [merge id]
 ```
+
+### Github
+
+Can use /docs folder on master branch for gh-pages instead of specific branch.
