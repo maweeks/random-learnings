@@ -28,7 +28,7 @@ echo "any command" | tee myfile.txt
 Create an empty branch, e.g. for gh-pages
 
 ```bash
-git checkout --orphan [branch name]
+git checkout --orphan <branch name>
 
 rm -rf ./*
 
@@ -38,13 +38,19 @@ git rm --cached -r .
 Revert commit a commit
 
 ```bash
-git revert [commit id]
+git revert <commit id>
 ```
 
 Revert a merged commit
 
 ```bash
-git revert -m 1 [merge id]
+git revert -m 1 <merge id>
+```
+
+Delete a remote branch
+
+```bash
+git push --delete <remote_name> <branch_name>
 ```
 
 ### Github
