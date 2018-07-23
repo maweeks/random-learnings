@@ -21,6 +21,16 @@ Output to console and print to file, -a to append.
 echo "any command" | tee myfile.txt
 ```
 
+### Windows Command Prompt
+
+To change drive, do not use cd
+
+```bash
+C:
+
+cd path/to/dir
+```
+
 ## Source Control
 
 ### Git
