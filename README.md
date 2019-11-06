@@ -21,6 +21,14 @@ Output to console and print to file, -a to append.
 echo "any command" | tee myfile.txt
 ```
 
+### HTML
+
+[HTML HEAD explained](https://htmlhead.dev/)
+
+### Node.js
+
+[Setting up a nodejs cache (useful for build boxes)](https://www.nullivex.com/blog/setting-up-a-nodejs-dist-mirror)
+
 ### Windows Command Prompt
 
 To change drive, do not use cd
@@ -65,4 +73,4 @@ git push --delete <remote_name> <branch_name>
 
 ### Github
 
-Can use /docs folder on master branch for gh-pages instead of specific branch.
+Can use specified folder on master branch for gh-pages instead of specific branch.
