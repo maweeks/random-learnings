@@ -25,6 +25,17 @@ echo "any command" | tee myfile.txt
 
 [HTML HEAD explained](https://htmlhead.dev/)
 
+### Markdown
+
+Add a comment to the markdown file (won't be included in conversion of the file):
+
+```markdown
+[empty line]
+[//]: # (Your comment here!)
+```
+
+[//]: # (Your comment here!)
+
 ### Node.js
 
 [Setting up a nodejs cache (useful for build boxes)](https://www.nullivex.com/blog/setting-up-a-nodejs-dist-mirror)
