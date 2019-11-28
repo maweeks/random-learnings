@@ -11,9 +11,13 @@ Unless otherwise stated, square brackets in code snippets indicate a value to be
 [Adobe Color CC](https://color.adobe.com/create/color-wheel/)
 [Material Design Color Tool](https://material.io/tools/color/#!/?view.left=0&view.right=0&primary.color=DCEDC8)
 
-## Command Line
+### AWS
 
-### Bash
+[Simple AWS services](https://expeditedsecurity.com/aws-in-plain-english/)
+
+### Command Line
+
+#### Bash
 
 Output to console and print to file, -a to append.
 
