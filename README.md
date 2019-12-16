@@ -86,6 +86,16 @@ Delete a remote branch
 git push --delete <remote_name> <branch_name>
 ```
 
+List story codes since latest tag (replace regex in grep)
+
+```bash
+# tags on current branch
+git log HEAD...$(git describe --abbrev=0 --tags) --pretty=%s | grep -o 'BAU-\d*\|SUP-\d*' | sort -u
+
+# tags on all branches
+git log HEAD...$(git describe --tags `git rev-list --tags --max-count=1`) --pretty=%s | grep -o 'BAU-\d*\|SUP-\d*' | sort -u
+```
+
 ### Github
 
 Can use specified folder on master branch for gh-pages instead of specific branch.
