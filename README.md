@@ -99,3 +99,13 @@ git log HEAD...$(git describe --tags `git rev-list --tags --max-count=1`) --pret
 ### Github
 
 Can use specified folder on master branch for gh-pages instead of specific branch.
+
+## SQL
+
+### Postgresql
+
+Check if key exists in a json field for each record.
+
+```sql
+SELECT jsonField FROM tableName WHERE jsonField->>'jsonKey' IS NOT NULL
+```
