@@ -58,6 +58,12 @@ cd path/to/dir
 
 ### Git
 
+Use cat instead of less for git branch / tag / etc.
+
+```bash
+git config --global core.pager cat
+```
+
 Create an empty branch, e.g. for gh-pages
 
 ```bash
