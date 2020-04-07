@@ -25,6 +25,18 @@ Output to console and print to file, -a to append.
 echo "any command" | tee myfile.txt
 ```
 
+### Docker
+
+Lint Dockerfile
+
+```bash
+# Install
+sudo wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v1.17.5/hadolint-Linux-x86_64
+sudo chmod +x /bin/hadolint
+# Lint
+hadolint Dockerfile
+```
+
 ### HTML
 
 [HTML HEAD explained](https://htmlhead.dev/)
