@@ -114,6 +114,12 @@ git log HEAD...$(git describe --abbrev=0 --tags) --pretty=%s | grep -o 'BAU-\d*\
 git log HEAD...$(git describe --tags `git rev-list --tags --max-count=1`) --pretty=%s | grep -o 'BAU-\d*\|SUP-\d*' | sort -u
 ```
 
+Check if branch contains tag
+
+```bash
+git branch --contains $(git rev-parse your-tag) | grep '^master$'
+```
+
 ### Github
 
 Can use specified folder on master branch for gh-pages instead of specific branch.
