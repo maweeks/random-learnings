@@ -12,8 +12,8 @@ Unless otherwise stated, square brackets in code snippets indicate a value to be
   - [md](./languages/md)
   - [postgresql](./languages/postgresql)
 - software
-  - [software](./software/cmd)
-  - [software](./software/docker)
-  - [software](./software/git)
-  - [software](./software/teamcity)
+  - [cmd](./software/cmd)
+  - [docker](./software/docker)
+  - [git](./software/git)
+  - [teamcity](./software/teamcity)
 - [tools](./tools/tools)
