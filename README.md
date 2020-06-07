@@ -8,6 +8,7 @@ Unless otherwise stated, square brackets in code snippets indicate a value to be
 
 - languages
   - [bash](./languages/bash)
+  - [css](./languages/css)
   - [js](./languages/js)
   - [md](./languages/md)
   - [postgresql](./languages/postgresql)
@@ -15,5 +16,6 @@ Unless otherwise stated, square brackets in code snippets indicate a value to be
   - [cmd](./software/cmd)
   - [docker](./software/docker)
   - [git](./software/git)
+  - [makefile](./software/makefile)
   - [teamcity](./software/teamcity)
 - [tools](./tools/tools)
