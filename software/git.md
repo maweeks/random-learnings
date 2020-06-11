@@ -6,6 +6,14 @@ Use cat instead of less for git branch / tag / etc.
 git config --global core.pager cat
 ```
 
+**WARNING: Ruins git log!!**
+
+Could also pipe command into cat
+
+```bash
+git branch | cat
+```
+
 Create an empty branch, e.g. for gh-pages
 
 ```bash
