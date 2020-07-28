@@ -15,6 +15,7 @@ Unless otherwise stated, square brackets in code snippets indicate a value to be
 - software
   - [cmd](./software/cmd)
   - [docker](./software/docker)
+  - [excel](./software/excel)
   - [git](./software/git)
   - [makefile](./software/makefile)
   - [teamcity](./software/teamcity)
