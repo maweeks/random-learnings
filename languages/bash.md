@@ -15,7 +15,7 @@ curl https://checkip.amazonaws.com;
 Kill process using port xxx
 
 ```bash
-lsof -i :xxx | awk '{system("kill -9 " $2)}'
+kill -9 `lsof -t -i :xxx`
 
 lsof -i :xxx
 kill -9 [PID from previous]
