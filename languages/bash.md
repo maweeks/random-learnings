@@ -16,7 +16,4 @@ Kill process using port xxx
 
 ```bash
 kill -9 `lsof -t -i :xxx`
-
-lsof -i :xxx
-kill -9 [PID from previous]
 ```
