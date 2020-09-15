@@ -17,3 +17,16 @@ Kill process using port xxx
 ```bash
 kill -9 `lsof -t -i :xxx`
 ```
+
+Alias to `clearPort xxx`
+
+```bash
+clearPort() {
+    if [ -n "$1" ]
+    then
+        kill -9 `lsof -t -i :$1`
+    else
+        echo "Provide a port"
+    fi
+}
+```
