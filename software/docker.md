@@ -23,7 +23,5 @@ Failed to build container
 with
 
 ```bash
-docker container prune &&
-docker rmi $(docker images -q) &&
-docker rm -v $(docker ps -qa)
+docker container prune; docker rmi $(docker images -q); docker rm -v $(docker ps -qa)
 ```
