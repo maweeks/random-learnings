@@ -57,3 +57,13 @@ Check if branch contains tag
 ```bash
 git branch --contains $(git rev-parse your-tag) | grep '^master$'
 ```
+
+Add existing folder to repo:
+
+```bash
+git init
+git add .;git commit -m'my first commit'
+git remote add origin https|ssh:path/to/the/repository.git
+git pull origin master --allow-unrelated-histories
+git push -u origin master
+```
