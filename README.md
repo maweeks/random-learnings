@@ -19,4 +19,5 @@ Unless otherwise stated, square brackets in code snippets indicate a value to be
   - [git](./software/git)
   - [makefile](./software/makefile)
   - [teamcity](./software/teamcity)
+  - [vscode](./software/vscode)
 - [tools](./tools/tools)
